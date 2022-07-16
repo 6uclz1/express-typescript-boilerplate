@@ -1,5 +1,11 @@
 # express-typescript-boilerplate
 
+Typescriptでバックエンドを構築する際のテンプレートになります。
+
+ソフトウェアアーキテクチャの基礎 p.7 のアーキテクチャ図を参考に作成しました。
+
+https://www.oreilly.co.jp/books/9784873119823/
+
 ## Use Packages
 - Express.js
 - Sequelize
@@ -65,7 +71,7 @@ stateDiagram-v2
 
 - PersistenceLayer
     - 永続化層
-        - モデルの作成などを担当。
+        - モデルの作成（型定義）などを担当。
 
 - DatabaseLayer
     - データベース層
